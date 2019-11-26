@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-export default class FirstComponent extends Component {
+ class FirstComponent extends Component {
     render(){
         return(
             <div className="firstComponent">
@@ -10,3 +10,4 @@ export default class FirstComponent extends Component {
         );
     }
 }
+export default FirstComponent;
